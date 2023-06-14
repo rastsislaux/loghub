@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: loghub
+  data:
+    mongodb:
+      uri: mongodb://${LOGHUB_MONGO_USERNAME:root}:${LOGHUB_MONGO_PASSWORD:root}@${LOGHUB_MONGO_HOST:localhost}:${LOGHUB_MONGO_PORT:7082}/${LOGHUB_MONGO_DB:loghub}?authSource=admin
+
+server:
+  port: 7080
