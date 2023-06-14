@@ -1,4 +1,4 @@
-# Foobar
+# LogHub
 
 LogHub is a log aggregation application that allows you to monitor logs from multiple sources, such as log files or Docker containers.
 
